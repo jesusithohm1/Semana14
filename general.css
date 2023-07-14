@@ -1,0 +1,271 @@
+body{
+    text-align: center;
+    background: #74d3eb;
+    padding-top: 20px;
+  }
+h2{
+  text-shadow: 4px 3px 2px #00ff88;
+}
+.cajita{
+  
+    min-height:300px;
+  margin: auto;
+  width: 450px;
+	padding: 15px 15px 15px ;
+	position:relative;	
+	background:#fff;
+	background: -webkit-gradient(linear, 0% 20%, 0% 92%, from(#fff), to(#f3f3f3), color-stop(.1,#fff));
+	background: -moz-linear-gradient(0% 0% 270deg, #fff, #fff 10%, #f3f3f3);
+	border: 1px solid #ccc;
+	-webkit-border-radius: 60px 5px;
+	-moz-border-radius: 60px/5px;
+	border-radius: 60px/5px;
+	-webkit-box-shadow: 0px 0px 35px rgba(0, 0, 0, 0.1) inset;
+	-moz-box-shadow: 0px 0px 35px rgba(0, 0, 0, 0.1) inset;
+	box-shadow: 0px 0px 35px rgba(0, 0, 0, 0.1) inset;
+}
+
+.cajita:before{
+	content: '';
+	width: 50px;
+	height: 50px;
+	top:0; right:0;
+	position:absolute;
+	display: inline-block;
+	z-index:-1;
+	-webkit-box-shadow: 10px -10px 8px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow: 10px -10px 8px rgba(0, 0, 0, 0.2);
+	box-shadow: 10px -10px 8px rgba(0, 0, 0, 0.2);
+	-webkit-transform: rotate(2deg)
+						translate(-14px,20px)
+					   	skew(-20deg);
+	-moz-transform: rotate(2deg)
+						translate(-14px,20px)
+					   	skew(-20deg);
+	-o-transform: rotate(2deg)
+						translate(-14px,20px)
+					   	skew(-20deg);						
+    transform: rotate(2deg)
+				translate(-14px,20px)
+			    skew(-20deg);
+											
+											
+}
+
+.box14:after{
+	content: '';
+	width: 100px;
+	height: 100px;
+	top:0; left:0;
+	position:absolute;
+	z-index:-1;
+	display: inline-block;
+	-webkit-box-shadow: -10px -10px 10px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow: -10px -10px 10px rgba(0, 0, 0, 0.2);
+	box-shadow: -10px -10px 10px rgba(0, 0, 0, 0.2);	
+	-webkit-transform: rotate(2deg)
+						translate(20px,25px)
+					   	skew(20deg);
+	-moz-transform:  rotate(2deg)
+						translate(20px,25px)
+					   	skew(20deg);
+	-o-transform:  rotate(2deg)
+						translate(20px,25px)
+					   	skew(20deg);						
+	transform:  rotate(2deg)
+						translate(20px,25px)
+					   	skew(20deg);
+}
+
+.box14_ribbon{
+	position:absolute;
+	top:0; right: 0;
+	width: 130px;
+	height: 40px;
+	background: rgba(0, 0, 0, 0.1);
+	background: -webkit-gradient(linear, 555% 20%, 0% 92%, from(rgba(0, 0, 0, 0.1)), to(rgba(0, 0, 0, 0.0)), color-stop(.1,rgba(0, 0, 0, 0.2)));
+	background: -moz-linear-gradient(555% 0% 180deg, rgba(0,0,0,0.1), rgba(0,0,0,0.2) 10%, rgba(0,0,0,0.0));
+	border-left: 1px dashed rgba(0, 0, 0, 0.1);
+	border-right: 1px dashed rgba(0, 0, 0, 0.1);
+	-webkit-box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow: 0px 0px 12px rgba(0,0,0,0.2);
+	box-shadow: 0px 0px 12px rgba(0,0,0,0.2);
+	-webkit-transform: rotate(6deg) skew(0,0) translate(-60%,-5px);
+	-moz-transform: rotate(6deg) skew(0,0) translate(-60%,-5px);
+	-o-transform: rotate(6deg) skew(0,0) translate(-60%,-5px);
+	transform: rotate(6deg) skew(0,0) translate(-60%,-5px);
+}
+  
+  .boton{
+        text-shadow: 0px 1px rgba(0, 0, 0, 0.2);
+              text-align:center;
+              text-decoration: none;
+        font-family: 'Helvetica Neue', Helvetica, sans-serif;
+        display:inline-block;
+              color: #FFF;
+              background: #7F8C8D;
+              padding: 7px 20px;
+              white-space: nowrap;
+              -webkit-border-radius: 5px;
+              -moz-border-radius: 5px;
+              border-radius: 100px;
+              margin: 10px 5px;
+              -webkit-transition: all 0.2s ease-in-out;
+              -ms-transition: all 0.2s ease-in-out;
+              -moz-transition: all 0.2s ease-in-out;
+              -o-transition: all 0.2s ease-in-out;
+              transition: all 0.2s ease-in-out;
+  }
+  .rojo{
+    background: #E74C3C;
+    box-shadow: 0px 5px 0px 0px #C0392B;
+  }
+  
+  .rojo:hover{
+    background: #ff5242;
+  }
+  
+  .rojo:active{
+    box-shadow: 0px 2px 0px 0px #C0392B;
+  }
+  .naranja{
+    background: #c97e1b;
+    box-shadow: 0px 5px 0px 0px #814c06;
+  }
+  
+  .naranja:hover{
+    background: #ff9100;
+  }
+  
+  .naranja:active{
+    box-shadow: 0px 2px 0px 0px #a35f06;
+  }
+
+  .amarillo{
+    background: #e2c103;
+    box-shadow: 0px 5px 0px 0px #af9503;
+  }
+  
+  .amarillo:hover{
+    background: #ffd900;
+  }
+  
+  .amarillo:active{
+    box-shadow: 0px 2px 0px 0px #af9503;
+  }
+
+  .verde{
+    background: #33c73a;
+    box-shadow: 0px 5px 0px 0px #289c2e;
+  }
+  
+  .verde:hover{
+    background: #3be643;
+  }
+  
+  .verde:active{
+    box-shadow: 0px 2px 0px 0px #289c2e;
+  }
+  
+  .vagua{
+    background: #2ECC71;
+    box-shadow: 0px 5px 0px 0px #27AE60;
+  }
+  
+  .vagua:hover{
+    background: #32db78;
+  }
+  
+  .vagua:active{
+    box-shadow: 0px 2px 0px 0px #27AE60;
+  }
+
+  .vlimon{
+    background: #07df12;
+    box-shadow: 0px 5px 0px 0px #059b0d;
+  }
+  
+  .vlimon:hover{
+    background: #08f814;
+  }
+  
+  .vlimon:active{
+    box-shadow: 0px 2px 0px 0px #059b0d;
+  }
+  
+  .celeste{
+    background: #11c4e4;
+    box-shadow: 0px 5px 0px 0px #0d8aa0;
+  }
+  
+  .celeste:hover{
+    background: #00d9ff;
+  }
+  
+  .celeste:active{
+    box-shadow: 0px 2px 0px 0px #0d8aa0;
+  }
+  
+  
+  .coscuro{
+    background: #3498DB;
+    box-shadow: 0px 5px 0px 0px #2980B9;
+  }
+  
+  .coscuro:hover{
+    background: #54bbff;
+  }
+  
+  .coscuro:active{
+    box-shadow: 0px 2px 0px 0px #2980B9;
+  }
+  .azul{
+    background: #2519d6;
+    box-shadow: 0px 5px 0px 0px #2015b1;
+  }
+  
+  .azul:hover{
+    background: #3a31bb;
+  }
+  
+  .azul:active{
+    box-shadow: 0px 2px 0px 0px #2015b1;
+  }
+  
+  .morado{
+    background: #7c0dd6;
+    box-shadow: 0px 5px 0px 0px #640bad;
+  }
+  
+  .morado:hover{
+    background: #9d32f5;
+  }
+  
+  .morado:active{
+    box-shadow: 0px 2px 0px 0px #640bad;
+  }
+  .rosado{
+    background: #d118d1;
+    box-shadow: 0px 5px 0px 0px #a013a0;
+  }
+  
+  .rosado:hover{
+    background: #ee1cee;
+  }
+  
+  .rosado:active{
+    box-shadow: 0px 2px 0px 0px #a013a0;
+  }
+  
+  .fucsia{
+    background: #c90d74;
+    box-shadow: 0px 5px 0px 0px #a50b60;
+  }
+  
+  .fucsia:hover{
+    background: #f0108b;
+  }
+  
+  .fucsia:active{
+    box-shadow: 0px 2px 0px 0px #a50b60;
+  }
